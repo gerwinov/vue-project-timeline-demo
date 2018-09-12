@@ -26,7 +26,7 @@ export default {
                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-          image: `/img/circle.svg`,
+          image: `./img/circle.svg`,
           startYear: 2010,
           endYear: 2012,
           color: '#4A63E0'
@@ -40,7 +40,7 @@ export default {
                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-          image: `/img/circle.svg`,
+          image: `./img/circle.svg`,
           startYear: 2012,
           endYear: 2017,
           color: '#A09DD3'
@@ -54,7 +54,7 @@ export default {
                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-          image: `/img/circle.svg`,
+          image: `./img/circle.svg`,
           startYear: 2014,
           endYear:  null,
           color: '#518070'
@@ -68,7 +68,7 @@ export default {
                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-          image: `/img/circle.svg`,
+          image: `./img/circle.svg`,
           startYear: 2016,
           endYear: 2018,
           color: '#6DBAA1'
@@ -80,6 +80,10 @@ export default {
 </script>
 
 <style>
+  body {
+    margin: 0px;
+  }
+
   h1, h2, h3 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
